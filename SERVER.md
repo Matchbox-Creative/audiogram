@@ -16,7 +16,7 @@ The simplest alternative is to start a remote server running Ubuntu 14.04 or 15.
 
 You can run the server there with `npm start` or directly run `/where/you/installed/audiogram/bin/server`.
 
-Once it's running, you can access the editor at `http://[my remote server's address]:8888/`
+Once it's running, you can access the editor at `http://[my remote server's address]:9999/`
 
 You'll probably want to [run it in the background](http://olegpuzanov.com/2014/04/08/run-any-script-as-a-daemon-process-in-ubuntu-with-upstart/) so you don't have to leave a Terminal window open forever.
 
@@ -151,7 +151,7 @@ module.exports = {
 
 ## A note about access control
 
-If you run Audiogram on a remote server, you need to make sure you can access it.  For example, if you're using Amazon EC2, you need to allow inbound HTTP traffic on port 8888, or whichever port you're using instead.
+If you run Audiogram on a remote server, you need to make sure you can access it.  For example, if you're using Amazon EC2, you need to allow inbound HTTP traffic on port 9999, or whichever port you're using instead.
 
 The flip side is that you probably want to make sure other people CAN'T access it.  Otherwise a random person (or more likely a random robot) can view your Audiogram editor in their browser, and possibly spam it or worse.  The simplest way to do this is to limit access by IP address so that, for example, only computers in your office can access it.  But you can also add whatever authentication middleware you want. For some thoughts on how to do that, check out the [Developer Notes](DEVELOPERS.md#require-users-to-log-in).
 

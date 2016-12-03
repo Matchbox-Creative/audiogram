@@ -33,7 +33,7 @@ Once you've successfully installed everything, open a Terminal/command prompt, g
 > npm start
 ```
 
-Now you can open the Audiogram editor in a web browser.  If you're running it on your local computer, it should be at `http://localhost:8888/`.
+Now you can open the Audiogram editor in a web browser.  If you're running it on your local computer, it should be at `http://localhost:9999/`.
 
 If you want to use a different port number, you can supply it in the command. For example, to use port 9999:
 

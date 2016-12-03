@@ -130,7 +130,7 @@ docker build -t audiogram https://github.com/nypublicradio/audiogram.git
 Now you can run Audiogram in a container using that image:
 
 ```sh
-docker run -p 8888:8888 -t -i audiogram
+docker run -p 9999:9999 -t -i audiogram
 ```
 
 ## Mac troubleshooting
