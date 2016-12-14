@@ -4,7 +4,8 @@
   "description": "Turn audio into a shareable video.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run postinstall && redis-server && bin/server",
+    "start": "npm run postinstall && npm run redis && bin/server",
+    "redis": "redis-server --daemonize yes",
     "worker": "bin/worker",
     "postinstall": "mkdir -p editor/js && browserify client/index.js > editor/js/bundle.js",
     "rebuild": "npm run postinstall",
