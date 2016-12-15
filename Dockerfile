@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 # Install dependencies
 RUN apt-get update --yes && apt-get upgrade --yes
-RUN apt-get install git nodejs npm \
+RUN apt-get install git nodejs npm vim wget \
 libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev libpng-dev build-essential g++ \
 ffmpeg \
 redis-server --yes
