@@ -18,15 +18,17 @@
   "Hopscotch": {
     "width": 1000,
     "height": 250,
-    "captionAlign": "right",
+    "captionAlign": "left",
     "captionTop": 40,
-    "captionRight": 900,
-    "captionLeft": 640,
-    "backgroundColor": "#eee",
-    "backgroundImage": "subway.jpg",
+    "captionRight": 950,
+    "captionLeft": 50,
+    "captionFont": "300 30px 'Montserrat'",
+    "backgroundColor": "#fff",
+    "backgroundImage": "audio-lindsay.jpg",
     "foregroundColor": "#f6e91b",
     "waveTop": 100,
-    "waveBottom": 200
+    "waveBottom": 200,
+    "pattern": "bars"
   },
   "Basic": {
     "backgroundColor": "#eee",

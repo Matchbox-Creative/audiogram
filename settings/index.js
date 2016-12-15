@@ -24,6 +24,8 @@ module.exports = {
   // redisHost: "127.0.0.1",
   // worker: true,
   fonts: [
+    { family: "Montserrat", file: path.join(__dirname, "fonts", "Montserrat-Regular.otf") },
+    { family: "Montserrat", file: path.join(__dirname, "fonts", "Montserrat-Light.otf"), weight: 300 },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Regular.ttf") },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Light.ttf"), weight: 300 },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Bold.ttf"), weight: "bold" },
